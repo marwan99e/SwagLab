@@ -43,23 +43,19 @@ public class practice {
 		List<WebElement> prices = driver.findElements(By.className("inventory_item_price"));
 		List<WebElement> itemNames = driver.findElements(By.className("inventory_item_name"));
 
-		int TotalItems = Math.min(Math.min(addButtons.size(), prices.size()), itemNames.size());
+	
 
-		for (int i = 0; i < TotalItems; i++) {
-			String name = itemNames.get(i).getText();
-			String price = prices.get(i).getText();
-			if (i == 1 || i == 3 || i == 5) {
-				System.out.println("this item has been not added");
-				System.out.println("itemNames: " + name);
-				System.out.println("prices: " + price);
-				break;
-				
-				
-			}else {
+		for (int i = 0; i < addButtons.size(); i++) {
+			
+			if (i%2==0) {
 				addButtons.get(i).click();
-				System.out.println("this item has been added");
-				System.out.println("itemNames: " + name);
-				System.out.println("prices: " + price);
+				System.out.println(itemNames.get(i).getText()+ "this item has been added" +prices.get(i).getText());
+				
+
+			}else {
+				
+				System.out.println(itemNames.get(i).getText()+ "this item has not been added" +prices.get(i).getText());
+				
 			}
 			
 			
@@ -70,6 +66,7 @@ public class practice {
 	}
 
 /*
+ Code Added All Items
  
  List<WebElement> AddItems = Driver.findElements(By.ClassName("btn_primary") ;
  For (int i = 0; i<AddItems.Size();i++){

@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-10T17:54:30 EET" name="Default suite" finished-at="2025-07-10T17:54:32 EET" duration-ms="1916">
+  <suite started-at="2025-07-11T14:16:30 EET" name="Default suite" finished-at="2025-07-11T14:16:34 EET" duration-ms="3881">
     <groups>
     </groups>
-    <test started-at="2025-07-10T17:54:30 EET" name="Default test" finished-at="2025-07-10T17:54:32 EET" duration-ms="1916">
+    <test started-at="2025-07-11T14:16:30 EET" name="Default test" finished-at="2025-07-11T14:16:34 EET" duration-ms="3881">
       <class name="firstproject.practice">
-        <test-method is-config="true" signature="mySetup()[pri:0, instance:firstproject.practice@4c168660]" started-at="2025-07-10T17:54:30 EET" name="mySetup" finished-at="2025-07-10T17:54:31 EET" duration-ms="1594" status="PASS">
+        <test-method is-config="true" signature="mySetup()[pri:0, instance:firstproject.practice@36b0fcd5]" started-at="2025-07-11T14:16:30 EET" name="mySetup" finished-at="2025-07-11T14:16:33 EET" duration-ms="2454" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mySetup -->
-        <test-method signature="login()[pri:1, instance:firstproject.practice@4c168660]" started-at="2025-07-10T17:54:31 EET" name="login" finished-at="2025-07-10T17:54:32 EET" duration-ms="191" status="PASS">
+        <test-method signature="login()[pri:1, instance:firstproject.practice@36b0fcd5]" started-at="2025-07-11T14:16:33 EET" name="login" finished-at="2025-07-11T14:16:33 EET" duration-ms="639" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="AddItems()[pri:2, instance:firstproject.practice@4c168660]" started-at="2025-07-10T17:54:32 EET" name="AddItems" finished-at="2025-07-10T17:54:32 EET" duration-ms="97" status="PASS">
+        <test-method signature="AddItems()[pri:2, instance:firstproject.practice@36b0fcd5]" started-at="2025-07-11T14:16:33 EET" name="AddItems" finished-at="2025-07-11T14:16:34 EET" duration-ms="696" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddItems -->
